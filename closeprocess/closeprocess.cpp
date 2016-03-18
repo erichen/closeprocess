@@ -40,7 +40,7 @@ int _tmain(int argc, _TCHAR* argv[])
 {
   killCount = 0;
   if (argc < 2) {
-    std::cout << "kill processes:apolloonline.exe";
+    std::cout << "kill processes:apolloonline.exe" << std::endl;
     killProcessByName("apolloonline.exe");
   } else {
     std::cout << "kill processes:" << argv[1] << std::endl;
